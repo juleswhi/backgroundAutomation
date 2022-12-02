@@ -1,4 +1,4 @@
-# backgroundAutomation
+# Background / Wallpaper Automation
 
 <h3>
 Usage
