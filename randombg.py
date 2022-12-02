@@ -6,7 +6,7 @@ import os
 def randomImage():
     lastLine = subprocess.check_output(['tail', '-1', "logs.txt"])
 
-    images = glob.glob('/home/styx/.backgrounds/Images/*')
+    images = glob.glob('~/.backgrounds/Images/*')
     image = random.choice(images)
     
     if lastLine == image:
